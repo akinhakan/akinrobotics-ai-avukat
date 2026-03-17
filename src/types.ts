@@ -55,6 +55,7 @@ export interface User {
   email: string;
   role: UserRole;
   avatar?: string;
+  username?: string;
 }
 
 // --- VERSION CONTROL ---
